@@ -10,7 +10,7 @@ let mesAnyo = ['Enero','Febrero', 'Marzo','abril','Mayo','Junio','Julio','Agosto
 
 
     return(
-        <h4 className='date'>{diaSemana[fecha.getDay()]}, {fecha.getDate()} de {mesAnyo[fecha.getMonth()]} de {fecha.getFullYear()}</h4>
+        <h4 className='date'>{diaSemana[fecha.getDay()]} {fecha.getDate()} de {mesAnyo[fecha.getMonth()]} de {fecha.getFullYear()}</h4>
     )
 }
 
