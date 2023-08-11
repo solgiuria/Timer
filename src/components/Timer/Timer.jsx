@@ -1,5 +1,4 @@
 import {useContext, useState, useEffect, useRef} from 'react';
-import './Timer.css'
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import { PlayButton } from '../PlayButton/PlayButton';
