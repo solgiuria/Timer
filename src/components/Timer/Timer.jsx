@@ -55,7 +55,7 @@ const Timer = () => {
                  return switchMode()
              }
              tick()
-        }, 10);
+        }, 1000);
          return ()=> clearInterval(interval)
     },[SettingsContext])
 
